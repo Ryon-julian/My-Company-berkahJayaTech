@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Climate+Crisis&family=Noto+Sans+Bassa+Vah&family=Poppins:wght@100;500;800&display=swap');
+
+:root {
+    --main--color: #ba86e7;
+}
+
+html,
+body,
+* {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Climate Crisis', cursive;
+    font-family: 'Noto Sans Bassa Vah', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.my-nav {
+    background-color: #0F2B71;
+    min-height: 80px;
+    font-size: 18px;
+}
+
+.navbar-brand {
+    font-size: 2em;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.title {
+    font-size: 3em;
+    font-weight: 800;
+    letter-spacing: 5px;
+    color: var(--main--color)
+}
+
+.description {
+    font-size: 1.3em;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+.mybg {
+    background-image: url("assets/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+
+}
+
+.subtitle {
+    margin-top: 15px;
+    font-size: 1.5em;
+    font-weight: 550;
+    color: var(--main--color);
+    letter-spacing: 2px;
+    line-height: 1;
+}
+
+.subdescription {
+    color: black;
+    font-weight: 100;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+    .orderY {
+        order: -1;
+    }
+}
